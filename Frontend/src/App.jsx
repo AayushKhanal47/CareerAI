@@ -6,7 +6,7 @@ function App() {
 
   return (
    <>
-   <div>Pranisha Khanal</div>
+   <div></div>
    </>
   )
 }
