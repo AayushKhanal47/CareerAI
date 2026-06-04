@@ -2,11 +2,15 @@ import React from "react";
 import "../auth.form.scss";
 
 const Login = () => {
+
+const handleSumbit = (e)=>{
+  e.preventDefault()
+}
   return (
     <main>
       <div className="form-container">
         <h1>Login</h1>
-        <form>
+        <form onSubmit={handleSumbit}>
           <div className="input-group">
             <label htmlFor="email">Email</label>
             <input
