@@ -8,7 +8,7 @@ router.post("/register", authController.registerUserController)
 router.post("/login", authController.loginUserController)
 router.get("/logout", authController.logoutUserController)
 
-// FIXED ROUTE 👇
+
 router.get(
     "/get-me",
     authMiddleware.authUser,
